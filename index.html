@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <!-- Custom  CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- LINK -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/7e8f7b28f5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="main-nav">
+      <div class="logo">
+        <h3><a href="Home.html">Tousif</a></h3>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contact">CONTACTS</a></li>
+      </ul>
+      <div class="burger-icon">
+        <div class="line1 toggle"></div>
+        <div class="line2 toggle"></div>
+        <div class="line3 toggle"></div>
+      </div>
+    </nav>
+
+    <section id="home" class="flex-col">
+      <div class="home-page">
+        <h1 data-aos="fade-down" data-aos-delay="200">Hello, I am Tousif</h1>
+        <p data-aos="fade-up" data-aos-delay="200">Front-end Developer</p>
+      </div>
+      <div class="digital-clock"></div>
+      <div class="scroll-text flex-col">
+        <p>Scroll down</p>
+        <span
+          ><a href="#about"><i class="fas fa-caret-down fa-2x"></i></a
+        ></span>
+      </div>
+    </section>
+
+    <section id="about" class="flex-col">
+      <div class="about-box flex-col">
+        <div class="about-heading">
+          <h1 data-aos="fade-down" data-aos-delay="200">About Me</h1>
+        </div>
+        <div class="about-me">
+          <p data-aos="fade-up" data-aos-delay="200">
+            Hello, I am tousif provat. I love to code . I've been learning Html,
+            Css, JavaScript for 7 months. Now I'm trying to get myself a remote
+            part-time job to gain experience. Recently I have started to learn
+            node.js(back-end) . After that I plan to lern react.js,
+            react-native, and others.
+          </p>
+        </div>
+
+        <div class="pin pin-1"></div>
+        <div class="pin pin-2"></div>
+        <div class="pin pin-3"></div>
+        <div class="pin pin-4"></div>
+      </div>
+    </section>
+
+    <section id="skills" class="flex-col">
+      <div class="skills-heading">
+        <h1 data-aos="fade-down" data-aos-delay="200">Skills</h1>
+      </div>
+      <div class="skills-section">
+        <div class="skill html" data-aos="flip-left" data-aos-delay="200">
+          <i class="fab fa-html5 fa-7x"></i>
+          <br />
+          <p
+            style="color: #d15b2b;
+          "
+          >
+            HTML
+          </p>
+        </div>
+        <div class="skill css" data-aos="flip-left" data-aos-delay="300">
+          <i class="fab fa-css3 fa-7x"></i>
+          <br />
+          <p
+            style="    color: #4b97d3;
+          "
+          >
+            CSS
+          </p>
+        </div>
+        <div class="skill sass" data-aos="flip-left" data-aos-delay="400">
+          <i class="fab fa-sass fa-7x"></i>
+          <br />
+          <p
+            style="    color: #c96195;
+          "
+          >
+            Sass
+          </p>
+        </div>
+        <div class="skill javascript" data-aos="flip-left" data-aos-delay="500">
+          <i class="fab fa-js-square fa-7x"></i>
+          <br />
+          <p
+            style="    color: #fdd93d;
+          "
+          >
+            Javascript
+          </p>
+        </div>
+        <div class="skill wordpress" data-aos="flip-left" data-aos-delay="600">
+          <i class="fab fa-wordpress-simple fa-7x"></i>
+          <br />
+          <p
+            style="    color: #444;
+          "
+          >
+            wordpress<br />theme<br />customization
+          </p>
+        </div>
+        <div class="skill more" data-aos="flip-left" data-aos-delay="700">
+          <i class="fas fa-plus fa-7x"></i>
+          <br />
+          <p style="color: #fff;">Learning more...</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="flex-row">
+      <div
+        class="projects-heading flex-col"
+        data-aos="slide-right"
+        data-aos-delay="200"
+      >
+        <span>P</span>
+        <span>R</span>
+        <span>O</span>
+        <span>J</span>
+        <span>E</span>
+        <span>C</span>
+        <span>T</span>
+        <span>S</span>
+      </div>
+      <div class="projects-showcase">
+        <div
+          class="project-box"
+          style="background-image: url('./images/project-01.jpg');"
+          data-aos="fade-in"
+          data-aos-delay="100"
+        >
+          <div class="project-popup">
+            <h3>Project-01</h3>
+            <p class="descreption">My first full website that I made.</p>
+            <div class="popup-buttons">
+              <a
+                href="tousifprovat.github.io/portfoliofirst/"
+                target="_blank"
+                class="live"
+                ><i class="fas fa-eye"></i
+              ></a>
+              <a
+                href="https://tousifprovat.github.io/Portfoliofirst/"
+                target="_blank"
+                class="github"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-box"
+          style="background-image: url('./images/project-02.jpg');"
+          data-aos="fade-in"
+          data-aos-delay="200"
+        >
+          <div class="project-popup">
+            <h3>Project-02</h3>
+            <p class="descreption">
+              A landing page idea that I visualy represented with website.This
+              has animations.
+            </p>
+            <div class="popup-buttons">
+              <a
+                href="https://tousifprovat.github.io/FastEverything/"
+                class="live"
+                target="_blank"
+                ><i class="fas fa-eye"></i
+              ></a>
+              <a
+                href="https://github.com/TousifProvat/FastEverything"
+                class="github"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-box"
+          style="background-image: url('./images/project-03.jpg');"
+          data-aos="fade-in"
+          data-aos-delay="300"
+        >
+          <div class="project-popup">
+            <h3>Project-03</h3>
+            <p class="descreption">
+              Another Portfolio of mine. Developed this in a bit rush.This is
+              whats a simple portfolio looks like.
+            </p>
+            <div class="popup-buttons">
+              <a
+                href="https://tousifprovat.github.io/Rushportfolio/"
+                target="_blank"
+                class="live"
+                ><i class="fas fa-eye"></i
+              ></a>
+              <a
+                href="https://github.com/TousifProvat/Rushportfolio/"
+                target="_blank"
+                class="github"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="project-box"
+          style="background-image: url('./images/project-04.jpg');"
+          data-aos="fade-in"
+          data-aos-delay="100"
+        >
+          <div class="project-popup">
+            <h3>Project-04</h3>
+            <p class="descreption">
+              This is a blog website with animations.Enjoy!
+            </p>
+            <div class="popup-buttons">
+              <a href="https://j0086.csb.app/" target="_blank" class="live"
+                ><i class="fas fa-eye"></i
+              ></a>
+              <a
+                href="https://github.com/TousifProvat/Travelblog"
+                target="_blank"
+                class="github"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-box" data-aos="fade-in" data-aos-delay="200">
+          <div class="project-popup">
+            <h3>Title</h3>
+            <p class="descreption">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              dolorum?
+            </p>
+            <div class="popup-buttons">
+              <a href="#" class="live"><i class="fas fa-eye"></i></a>
+              <a href="#" class="github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-box" data-aos="fade-in" data-aos-delay="300">
+          <div class="project-popup">
+            <h3>Title</h3>
+            <p class="descreption">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              dolorum?
+            </p>
+            <div class="popup-buttons">
+              <a href="#" class="live"><i class="fas fa-eye"></i></a>
+              <a href="#" class="github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-box" data-aos="fade-in" data-aos-delay="100">
+          <div class="project-popup">
+            <h3>Title</h3>
+            <p class="descreption">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              dolorum?
+            </p>
+            <div class="popup-buttons">
+              <a href="#" class="live"><i class="fas fa-eye"></i></a>
+              <a href="#" class="github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-box" data-aos="fade-in" data-aos-delay="200">
+          <div class="project-popup">
+            <h3>Title</h3>
+            <p class="descreption">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              dolorum?
+            </p>
+            <div class="popup-buttons">
+              <a href="#" class="live"><i class="fas fa-eye"></i></a>
+              <a href="#" class="github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="project-box" data-aos="fade-in" data-aos-delay="300">
+          <div class="project-popup">
+            <h3>Title</h3>
+            <p class="descreption">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+              dolorum?
+            </p>
+            <div class="popup-buttons">
+              <a href="#" class="live"><i class="fas fa-eye"></i></a>
+              <a href="#" class="github"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-box" data-aos="fade-down" data-aos-delay="200">
+        Want to hire me? contact <a href="#">tousifprovat@yahoo.com.au</a>
+        <br />
+        or fill up the form.
+      </div>
+      <br />
+      <form id="contact_form">
+        <input
+          type="text"
+          placeholder="Full Name"
+          name="fname"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        />
+        <br />
+        <input
+          type="text"
+          placeholder="Subject"
+          name="subject"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        />
+        <br />
+        <input
+          type="email"
+          placeholder="Email"
+          name="email"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        />
+        <br />
+        <textarea
+          name="details"
+          placeholder="Small description about the project."
+          data-aos="fade-up"
+          data-aos-delay="400"
+        ></textarea>
+        <input class="submit" type="button" name="submit" value="Let's go" />
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <h2>Copyright@TousifProvat2019</h2>
+      </div>
+    </footer>
+    <!-- jquery  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="home.js"></script>
+
+    <!-- aos-js -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </body>
+</html>
